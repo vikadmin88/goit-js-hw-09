@@ -4,30 +4,30 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/goit-js-hw-09/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <title>Goit-js-hw-09</title>
     
-    <script type="module" crossorigin src="/goit-js-hw-09/assets/styles-f05661d7.js"></script>
-    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-6999ff10.css">
+    <script type="module" crossorigin src="/goit-js-hw-09/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/styles-56326280.js">
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-a61b1916.css">
   </head>
   <body>
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-      </li>
-
-      <li class="nav-item">
-      </li>
-    </ul>
-  </nav>
-</header>
-
-
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-    </section>
-
+    <a href="./index.html">Return</a>
+    <div class="container">
+      <form class="feedback-form" autocomplete="off">
+        <label class="fb-form-label">
+          Email
+          <input class="fb-form-email" type="email" name="email" autofocus />
+        </label>
+        <label class="fb-form-label">
+          Message
+          <textarea class="fb-form-message" name="message" rows="8"></textarea>
+        </label>
+        <button class="fb-btn-submit" type="submit">Submit</button>
+      </form>
+    </div>
     
   </body>
 </html>
