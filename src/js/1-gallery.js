@@ -80,10 +80,10 @@ const galleryTmpl = ({
   </li>`;
 };
 
-const liImageElements = images.map(galleryTmpl).join('');
+const liImageElements = images.map(galleryTmpl).join("");
 
 const gallery = document.querySelector(".gallery");
-gallery.insertAdjacentHTML('afterbegin', liImageElements);
+gallery.insertAdjacentHTML("afterbegin", liImageElements);
 
 const lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
